@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> <!-- Declare the document language -->
 <head>
-    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta charset="utf-8"> <!-- Character encoding for the document -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
     <title>University of Arkansas at Little Rock</title> <!-- Title of the document -->
     <meta name="description" content="A brief history and overview of the University of Arkansas at Little Rock."> <!-- Description for search engines -->
