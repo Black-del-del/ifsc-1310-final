@@ -9,16 +9,17 @@ html {
 *:after {
   box-sizing: inherit;
 }
-/* Apply a full page background image */
+/*------------------responsive immages --------------------*/
+img {
+max-width: 100%;
+  
+}
+
 body {
-  font-family: Arial, sans-serif;
-  margin:0;
-  background-image:url(final-v1/assets/img/Dragon_2_hover_test.jpg);
+  background-image: url('assets/img/dragon-exterior.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  color: rgb(116, 38, 176);
-  line-height: 1.6;
+  background-repeat: no-repeat;
 }
 
 /* Header styles */
