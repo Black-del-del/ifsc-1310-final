@@ -88,6 +88,12 @@ th {
   color: #ff6600;
 }
 
+.header-image {
+  width: 150px; /* Set the image size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
 /* Content styles */
 .content {
   padding-top: 100px; /* Prevent the header from overlapping the content */
