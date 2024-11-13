@@ -37,16 +37,14 @@ body, html {
 }
 
 table {
-  width: 100%; /* Table width can be 100% or a fixed value */
-  border:#ff6600; /* Optional: remove space between borders */
+  width: 80%; /* Table width can be 100% or a fixed value */
+  border:#243bbb; /* Optional: remove space between borders */
   margin: auto;
   justify-content: center;
-}
-
-table, th, td {
-  border: 1px solid black;
   padding: 8px;
 }
+
+
 
 th {
   background-color: #f4f4f4;
@@ -77,7 +75,7 @@ th {
 }
 
 .header-content nav ul li a {
-  color: white;
+  color: rgb(77, 190, 235);
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -105,7 +103,7 @@ section {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
 }
 h2 {
