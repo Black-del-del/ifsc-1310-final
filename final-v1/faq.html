@@ -160,10 +160,27 @@
     <div class="content">
         <!-- Main content goes here -->
     </div>
+    <title>Sticky Footer</title>
     <footer class="footer">
-      <h6>&copy; 2024 Lawson Black</h6>
-      <footer id="colophon" role="contentinfo"></footer>
-    </footer>
+        <h6>&copy; 2024 Lawson Black</h6>
+        <footer id="colophon" role="contentinfo">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .content {
+            min-height: calc(100vh - 50px); /* Adjust 50px to your footer height */
+        }
+        .footer {
+            height: 50px;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style></footer>
+    
 
 </body>
 
