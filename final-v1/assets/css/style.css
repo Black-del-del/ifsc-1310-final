@@ -44,20 +44,43 @@ th {
 
 
 /* Header styles */
-
+<style>
 .primary {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the header */
-  padding: 20px 0;
-  border-bottom: 5px solid #f1f1f1;
-  z-index: 1000; /* Ensures the header is above the content */
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
+    body {
+        background: url(assets/img/dragon-in-space.jpg);
+        background-size: cover;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: blue;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    .header a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+       color: white;
+    }
+  }
+
+</style>
+</head>
 
 .header-content nav ul {
-  display: flex;
+  display:inherit;
   justify-content: center;
   list-style: none;
 }
@@ -79,10 +102,13 @@ th {
 }
 
 .header-image {
-  width: 80px; /* Set the image size */
+  width: 100px; /* Set the image size */
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: adds rounded corners */
 }
+
+
+
 
 /* Content styles */
 .content {
