@@ -17,7 +17,6 @@ body {
 body, html {
   height: 100%;
   margin: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-indent: 30px;
@@ -44,7 +43,6 @@ th {
 
 
 /* Header styles */
-<style>
 .primary {
   position: fixed;
   top: 0;
@@ -62,7 +60,7 @@ th {
         font-family: Arial, sans-serif;
     }
     .header {
-      background-color: blue;
+      background-color: #0000ff;
         color: white;
         padding: 20px;
         text-align: center;
@@ -74,11 +72,7 @@ th {
         text-decoration: none;
        color: white;
     }
-  }
-
-</style>
-</head>
-
+  
 .header-content nav ul {
   display:inherit;
   justify-content: center;
@@ -106,7 +100,14 @@ th {
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: adds rounded corners */
 }
-
+footer {
+  height: 50px;
+  background: #0000ff;
+  left: 0;
+  bottom:0;
+  text-align: center;
+  padding-bottom: 0px;
+}
 
 
 
@@ -133,4 +134,8 @@ p {
   font-size: 18px;
   margin-bottom: 20px;
   text-indent: 30px;
+}
+h6{
+  font-size: 20px;
+
 }
