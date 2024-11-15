@@ -1,8 +1,10 @@
 /*  ---------------Box Sizing-----------------  */
-
-html {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 
 *,
 *:before,
@@ -46,12 +48,6 @@ table {
 }
 
 
-
-th {
-  background-color: #f4f4f4;
-}
-
-
 /* Header styles */
 .primary {
   position: fixed;
@@ -63,28 +59,41 @@ th {
   padding: 20px;
   text-align: center;
 }
-    body {
-        background: url(assets/img/dragon-in-space.jpg);
-        background-size: cover;
-        margin: 0;
-        font-family: Arial, sans-serif;
-    }
-    .header {
-      background-color: #0000ff;
-        color: white;
-        padding: 20px;
-        text-align: center;
-        
-    }
-    .header a {
-        color: white;
-        margin: 0 15px;
-        text-decoration: none;
-       color: white;
-    }
+body {
+ 
+  background-image: url('/final-v1/assets/img/dragon-in-space.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+ }
+    
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-color: #7eb8ee;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+  
+   
+ }
+.header a {
+  background-color: #7eb8ee;
+  color: rgb(165, 168, 176);
+  margin: 0 15px;
+  text-decoration: none;
+
+ }
   
 .header-content nav ul {
-  display:inherit;
+  display:fixed;
   justify-content: center;
   list-style: none;
 }
@@ -93,32 +102,32 @@ th {
   margin: 0 15px;
 }
 
-.header-content nav ul li a {
-  color: rgb(77, 190, 235);
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 
-.header-content nav ul li a:hover {
-  color: #ff6600;
-}
 
 .header-image {
+  position:fixed;
   width: 100%; /* Set the image size */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: adds rounded corners */
+  
 }
-footer {
-  height: 50px;
-  background: #0000ff;
-  color:#f4f4f4;
-  left: 0;
-  bottom:0;
-  text-align: center;
-  padding-bottom: 0px;
+.content {
+  margin-top: 80px;  /* Push the body content down to avoid overlap */
+  padding: 20px;     /* Add some padding to the content */
 }
+<title>Sticky Footer</title>
+   <footer>
+        <h6>&copy; 2024 Lawson Black</h6>
+        <footer id="colophon" role="contentinfo">
+    
+        .footer {
+            height: 50px;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style></footer>
+    
 
 
 
@@ -128,12 +137,10 @@ footer {
   padding: 20px;
 }
 
-section {
-  margin-bottom: 40px;
-}
+
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
   text-align: center;
 }
 h2 {
