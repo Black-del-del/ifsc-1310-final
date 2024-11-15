@@ -1,4 +1,8 @@
+/*  ---------------Box Sizing-----------------  */
 
+html {
+  box-sizing: border-box;
+}
 
 *,
 *:before,
@@ -22,15 +26,21 @@ body, html {
   text-indent: 30px;
 }
 
+.image-container {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  width: 100%; 
+}
 .table-container {
   width: 80%; /* Optional: set width of the container */
   justify-content:space-around;
 }
 
 table {
-  width: 80%; /* Table width can be 100% or a fixed value */
+  width: 100%; /* Table width can be 100% or a fixed value */
   border:#243bbb; /* Optional: remove space between borders */
-  margin: auto;
+  margin:20px auto;
   justify-content: center;
   padding: 8px;
 }
@@ -96,13 +106,14 @@ th {
 }
 
 .header-image {
-  width: 100px; /* Set the image size */
+  width: 100%; /* Set the image size */
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: adds rounded corners */
 }
 footer {
   height: 50px;
   background: #0000ff;
+  color:#f4f4f4;
   left: 0;
   bottom:0;
   text-align: center;
