@@ -116,11 +116,10 @@ body {
   text-align: center;
   z-index: 1000;
   background-image: url(/final-v1/assets/img/SpaceX-Logo.png);
-  
-   
+
  }
 .header a {
-  
+  position: sticky;
   color: rgb(247, 249, 253);
   margin: 0 15px;
   text-decoration: none;
@@ -130,10 +129,17 @@ body {
   color: #ff9900;  /* Change color on hover */
   text-decoration: underline;  /* Optional: underline on hover */
 }
-.header-content nav ul {
-  display:fixed;
+nav {
+  position: sticky;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.5)4;
+  width: 100%;
+}
+.header nav ul {
+  display:flex;
   justify-content: center;
   list-style: none;
+  padding: 4% 0;
 }
 
 .header-content nav ul li {
