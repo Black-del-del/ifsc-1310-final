@@ -44,11 +44,11 @@ body, html {
 .table-container {
   width: 80%; /* Optional: set width of the container */
   justify-content:space-around;
+  
 }
 
 table {
   width: 100%; /* Table width can be 100% or a fixed value */
-  border:#243bbb; /* Optional: remove space between borders */
   margin:20px auto;
   justify-content: center;
   padding: 8px;
