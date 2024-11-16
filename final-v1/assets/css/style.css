@@ -170,7 +170,7 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-size: 24px;
+   font-size: 24px;
   margin-bottom: 10px;
 }
 
@@ -193,12 +193,23 @@ h6{
 
 }
 .email-link {
-  color: #220dd6;  /* Light color */
-  text-decoration: none;  /* Remove underline */
+  color: #220dd6;  
+  text-decoration: none;  
   font-weight: bold;
 }
 
 .email-link:hover {
-  color: #ff9900;  /* Change color on hover */
-  text-decoration: underline;  /* Optional: underline on hover */
+  color: #ff9900;  
+  text-decoration: underline; 
+}
+a.hover-link {
+  color:#f4f4f4; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+/* Hover effect */
+a.hover-link:hover {
+  color: #ff9900; 
+  text-decoration: underline; 
 }
