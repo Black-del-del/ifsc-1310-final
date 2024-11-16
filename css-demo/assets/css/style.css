@@ -80,7 +80,6 @@ header.primary h1 {
   margin: 20px 2 0 0;
   background: Black;
 }
-
 /* ------ Media queries ------ */
 
 @media screen and (max-width: 900px) {

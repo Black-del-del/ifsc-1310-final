@@ -27,7 +27,6 @@ body {
   margin-top: 240px; /* Adjust this value to control spacing */
 }
 
-
 body, html {
   height: 100%;
   margin: 0;
@@ -173,6 +172,12 @@ h1 {
 h2 {
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #f4f4f4;
+  text-align: center;
 }
 
 p {
