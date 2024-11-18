@@ -13,7 +13,7 @@
 }
 body {
  
-  background-image: url('/final-v1/assets/img/dragon-in-space.jpg');
+  
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -21,6 +21,7 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
   padding: 0;
+  background-image: url('/final-v1/assets/img/dragon-in-space.jpg');
  }
  main {
   padding: 20px;
@@ -92,8 +93,6 @@ table {
 }
 .header {
   position: fixed;
-  background-size: cover;
-  background-position: center;
   top:0;
   left: 0;
   width: 100%;
