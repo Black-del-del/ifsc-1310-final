@@ -13,7 +13,7 @@
 }
 body {
  
-  
+  background-image: url('/final-v1/assets/img/dragon-in-space.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -21,7 +21,7 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
   padding: 0;
-  background-image: url('/final-v1/assets/img/dragon-in-space.jpg');
+  
  }
  main {
   padding: 20px;
@@ -99,6 +99,7 @@ table {
   height: 200px;
   padding: 20px;
   background-color: #7eb8ee;
+  background-blend-mode: overlay;
   color: white;
   text-align: center;
   background-image: url(/final-v1/assets/img/SpaceX-Logo.png);
