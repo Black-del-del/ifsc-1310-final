@@ -11,6 +11,7 @@
   box-sizing: inherit;
 }
 body {
+  position: relative;
   background-color: #220dd6;
   background-image: url('/final-v1/assets/img/dragon-in-space.jpg');
   background-size: cover;
