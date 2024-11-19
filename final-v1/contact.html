@@ -87,64 +87,48 @@
         }
     </style>
 
-    <div class="container">
-        <h2>Contact Form</h2>
-        <form action="/submit_form" method="POST">
-            <div class="form-group">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="address">Address:</label>
-                <input type="text" id="address" name="address" required>
-            </div>
-            <div class="form-group">
-                <label for="city">City:</label>
-                <input type="text" id="city" name="city" required>
-            </div>
-            <div class="form-group">
-                <label for="state">State:</label>
-                <input type="text" id="state" name="state" required>
-            </div>
-            <div class="form-group">
-                <label for="zipcode">Zip Code:</label>
-                <input type="text" id="zipcode" name="zipcode" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-    </div>
+   </div>
+   <div class="container">
+    <h2>Contact Form</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="af7cd02d-3f63-4071-a5b7-4566aa50af37">
+
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+        </div>
+        <div class="form-group">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+        </div>
+        <div class="form-group">
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode" name="zipcode" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
     </div>
 <div class="content">
 
-    <form action="https://api.web3forms.com/submit" method="POST">
-
-        <!-- Replace with your Access Key -->
-        <input type="hidden" name="access_key" value="af7cd02d-3f63-4071-a5b7-4566aa50af37">
-    
-        <!-- Form Inputs. Each input must have a name="" attribute -->
-        <input type="text" name="name" required>
-        <input type="text" name="address" required>
-        <input type="text" name="city" required>
-        <input type="text" name="state" required>
-        <input type="text" name="zipcode" required>
-        <input type="email" name="email" required>
-        <textarea name="message" required></textarea>
-        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-    
-      
-        <button type="submit">Submit Form</button>
-    
-    </form>
+   
   
 </div>  
 <footer class="footer">
