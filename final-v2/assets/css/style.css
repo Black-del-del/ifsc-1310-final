@@ -1,0 +1,216 @@
+/*  ---------------Box Sizing-----------------  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    position: relative;
+    background-color: #220dd6;
+    background-image: url('../img/dragon-in-space.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+    z-index: 1000;
+    
+   
+   }
+   main {
+    padding: 20px;
+    margin-top: 240px; /* Adjust this value to control spacing */
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    justify-content: center;
+    align-items:center;
+    text-indent: 30px;
+    
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%; 
+  }
+  .table-container {
+    width: 80%; /* Optional: set width of the container */
+    justify-content:space-around;
+    
+  }
+  
+  table {
+    width: 100%; /* Table width can be 100% or a fixed value */
+    margin:20px auto;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  .article-box {
+    background-color:#d7f1f8;
+    width: 80%;
+    margin: 20px auto;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-box h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .article-box p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .article-box .author {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 15px;
+  }
+  
+  
+  /* Header styles */
+  .primary {
+    position:fixed;
+    background-color: #7eb8ee;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  .header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    background-color: #7eb8ee;
+    color: white;
+    text-align: center;
+    background-image: url(../img/spacex-logo2.png);
+    background-position: center center;  
+    background-repeat: no-repeat;    
+      
+  }
+  
+  /* Position the nav at the bottom of the header */
+  .header nav {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
+  
+  .header nav ul {
+    
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10;
+  }
+  
+  .header nav ul li {
+   
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+  }
+  .header a:hover {
+    color: #f08f27;
+    text-decoration: none;
+  }
+  
+  
+  
+  .body-content {
+    margin-top: auto;  /* Push the body content down to avoid overlap */
+    padding: 20px;     /* Add some padding to the content */
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7eb8ee;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+  }
+  
+  
+  
+  
+  h1 {
+    top: 0;
+    left: 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+     font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #f4f4f4;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  blockquote p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  h6{
+    font-size: 15px;
+  
+  }
+  .email-link {
+    color: #220dd6;  
+    text-decoration: none;  
+    font-weight: bold;
+  }
+  
+  .email-link:hover {
+    color: #ff9900;  
+    text-decoration: underline; 
+  }
+  a.hover-link {
+    color:#f4f4f4; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  /* Hover effect */
+  a.hover-link:hover {
+    color: #ff9900; 
+    text-decoration: underline; 
+  }
