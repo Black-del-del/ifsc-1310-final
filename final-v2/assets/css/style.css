@@ -26,8 +26,9 @@
    
    }
    main {
-    padding: 20px;
-    margin-top: 240px; /* Adjust this value to control spacing */
+    text-align: center;
+    padding: 0px;
+    margin-top: 200px; /* Adjust this value to control spacing */
   }
   
   html, body {
@@ -40,13 +41,33 @@
     text-indent: 30px;
     
   }
+  .boxed {
+    background-color: black;
+    color: white; /* Ensure the text is readable against the black background */
+    padding: 10px;
+    display: inline-block;
+  }
   
   .image-container {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: center;
     align-items: center;
-    width: 100%; 
   }
+
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-left: 20px;
+  }
+
+  .dragon-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-left: 20px;
+   
+  }
+
   .table-container {
     width: 80%; /* Optional: set width of the container */
     justify-content:space-around;
@@ -103,7 +124,7 @@
     width: 100%;
     height: 150px;
     padding: 20px;
-    background-color: #7eb8ee;
+    background-color: #0d0e10;
     color: white;
     text-align: center;
     background-image: url(../img/spacex-logo2.png);
@@ -139,7 +160,7 @@
     text-decoration: none;
   }
   .header a:hover {
-    color: #f08f27;
+    color: #f8e14b;
     text-decoration: none;
   }
   
@@ -155,7 +176,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #7eb8ee;
+    background-color: #101317;
     color: white;
     text-align: center;
     padding: 8px 0;
@@ -167,7 +188,7 @@
   h1 {
     top: 0;
     left: 0;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
   }
   h2 {
@@ -176,8 +197,13 @@
   }
   
   h3 {
-    font-size: 20px;
+    font-size: 15px;
     color: #f4f4f4;
+    text-align: center;
+  }
+  h4 {
+    color: #f4f4f4;
+    font-size: 18px;
     text-align: center;
   }
   
@@ -190,27 +216,28 @@
     margin-bottom: 20px;
   }
   h6{
-    font-size: 15px;
+    font-size: 12px;
   
   }
   .email-link {
-    color: #220dd6;  
+    font-size: 12px;
+    color: #f7f6f2;  
     text-decoration: none;  
     font-weight: bold;
   }
   
   .email-link:hover {
-    color: #ff9900;  
+    color: #f8e14b;  
     text-decoration: underline; 
   }
   a.hover-link {
-    color:#f4f4f4; 
+    color:#f7f6f0; 
     text-decoration: none; 
     font-weight: bold; 
   }
   
   /* Hover effect */
   a.hover-link:hover {
-    color: #ff9900; 
+    color: #f8e14b; 
     text-decoration: underline; 
   }
